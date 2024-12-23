@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import com.example.mobileapplication11.R
+import com.example.mobileapplication11.Scroller
 import com.example.mobileapplication11.databinding.FragmentMainBinding
 import com.example.mobileapplication11.home.HomeFragment
 import com.example.mobileapplication11.home.homePosts.HomePostsFragment
@@ -26,7 +27,7 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        loadFragment(HomePostsFragment.newInstance())
+        loadFragment(Scroller.newInstance())
         bottomNavigationListener()
     }
 
@@ -34,7 +35,7 @@ class MainFragment : Fragment() {
         bottomNavigationMenu.setOnItemSelectedListener {
             when(it.itemId){
                 R.id.home -> {
-                    loadFragment(HomePostsFragment.newInstance())
+                    loadFragment(Scroller.newInstance())
                     true
                 }
                 R.id.search -> {
