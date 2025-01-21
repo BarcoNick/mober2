@@ -3,18 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".textFragment">
+    tools:context=".UserTabFragment">
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Please send help" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Also swipe left"
-        android:layout_marginTop="200dp"
-        />
-
+        tools:listitem="@layout/user_item"/>
 </FrameLayout>

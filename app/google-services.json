@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "142853656714",
+    "project_id": "moder2-dsd2",
+    "storage_bucket": "moder2-dsd2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142853656714:android:f81c0c791ce7ebc7ca5d73",
+        "android_client_info": {
+          "package_name": "com.example.mobileapplication11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtaxNnZ56lKSnIPdfi5je9BOSbz4tse4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

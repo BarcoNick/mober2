@@ -17,13 +17,12 @@ import com.example.mobileapplication11.profile.ProfileFragment
 import com.example.mobileapplication11.profile.profileFragments.MainUserPostsFragment
 import com.example.mobileapplication11.profile.profileFragments.MainUserTaggedFragment
 import com.google.android.material.tabs.TabLayoutMediator
-
 class Scroller : Fragment() {
 
     private lateinit var binding : FragmentScrollerBinding
 
     private val fList = listOf(
-        textFragment.newInstance(),
+        UserTabFragment.newInstance(),
         HomePostsFragment.newInstance(),
         ProfileFragment.newInstance()
     )
